@@ -7,7 +7,7 @@ function isPalindroma(str) {
   //Converto la stringa in lettere minuscole
   str = str.toLowerCase();
 
-  //Inverto l'ordine delle lettere
+  //Inverto l'ordine delle lettere, con split mi tolgo le spaziature e con join mi creo la stringa
   strReverse = str.split('').reverse().join('');
 
   //Verico se str è uguale uguale a strReverse
